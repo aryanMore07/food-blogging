@@ -1,0 +1,278 @@
+/* Styles for mobile devices */
+
+.home-div {
+  width: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 804px;
+  color: #0e2368;
+  margin: -42px;
+}
+
+/* Left div  */
+
+.logo-img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.explore-btn {
+  padding: 14px 34px 14px 34px;
+  border-radius: 34px;
+  background-color: #e23744;
+  color: white;
+  border: none;
+  font-weight: 700;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+.content-title {
+  font-family: "Source Sans Pro";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 240px;
+  height: 130px;
+}
+
+.content-subtitle {
+  height: 55px;
+}
+
+.explore-btn-div {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.subtitle {
+  font-family: "Open Sans";
+  color: #444957;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.span-tag {
+  color: #e23744;
+}
+
+/* Right div  */
+
+.right-div {
+  position: relative;
+  width: max-content;
+}
+
+.pizza-img {
+  width: 378.2126770019531px;
+  height: 413.7183532714844px;
+  border-radius: 0px 0px 0px 102.34992980957031px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.vector {
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  height: auto;
+}
+
+/* Styles for tablets  */
+
+@media (min-width: 768px) {
+  .home-div {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 804px;
+    width: auto;
+    color: #0e2368;
+    margin: 0px;
+  }
+
+  /* Left div  */
+
+  .logo-img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .explore-btn {
+    padding: 14px 34px 14px 34px;
+    border-radius: 34px;
+    background-color: #e23744;
+    color: white;
+    border: none;
+    font-weight: 700;
+    margin-top: 5rem;
+    cursor: pointer;
+  }
+
+  .content-title {
+    font-family: "Source Sans Pro";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 240px;
+    height: 130px;
+  }
+
+  .content-subtitle {
+    height: 55px;
+  }
+
+  .explore-btn-div {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+
+  .subtitle {
+    font-family: "Open Sans";
+    color: #444957;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .span-tag {
+    color: #e23744;
+  }
+
+  /* Right div  */
+
+  .right-div {
+    position: relative;
+    width: max-content;
+  }
+
+  .pizza-img {
+    width: auto;
+    height: auto;
+    border-radius: 0px 0px 0px 102.34992980957031px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .vector {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Styles for Desktop */
+@media screen and (min-width: 1024px) {
+  .home-div {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 804px;
+    width: auto;
+    color: #0e2368;
+    margin: 0px;
+  }
+
+  /* Left div  */
+
+  .left-div {
+    padding: 0px 0px 0px 5rem;
+  }
+
+  .logo-img {
+    display: block;
+    width: 107px;
+    height: 83px;
+    position: absolute;
+    top: 33px;
+    left: 100px;
+  }
+
+  .explore-btn {
+    padding: 14px 34px 14px 34px;
+    border-radius: 34px;
+    background-color: #e23744;
+    color: white;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 14rem;
+  }
+
+  .content {
+    width: 240px;
+    height: 130px;
+    top: 489px;
+    left: 67px;
+  }
+
+  .content-title {
+    font-family: "Source Sans Pro";
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 345px;
+    height: 267px;
+  }
+
+  .content-subtitle {
+    width: 345px;
+    height: 55px;
+  }
+
+  .subtitle {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #444957;
+  }
+
+  .span-tag {
+    color: #e23744;
+  }
+
+  /* Right div  */
+
+  .right-div {
+    position: relative;
+    width: max-content;
+  }
+
+  .pizza-img {
+    width: 735px;
+    height: 804px;
+    border-radius: 0px 0px 0px 198.90184020996094px;
+    width: 100%;
+    height: auto;
+  }
+
+  .vector {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: auto;
+  }
+}

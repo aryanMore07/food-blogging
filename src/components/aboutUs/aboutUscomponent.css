@@ -1,0 +1,176 @@
+/* Default styles for mobile devices */
+.about-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10rem 0px 10rem;
+  background: linear-gradient(
+    90.07deg,
+    rgba(30, 42, 93, 0.04) 30.91%,
+    rgba(48, 62, 130, 0.04) 64.79%,
+    rgba(60, 80, 157, 0.04) 91.94%
+  );
+  width: auto;
+  height: 100vh;
+}
+
+.aboutus-img-div {
+  display: none;
+}
+
+.aboutus-desc {
+  width: 447px;
+  height: 254px;
+  top: 1096px;
+  left: 789px;
+  gap: 21px;
+}
+
+.about-us-title {
+  font-weight: bolder;
+  color: #0e2368;
+  font-family: "Source Sans Pro";
+  font-size: 38px;
+}
+
+.about-us-content {
+  color: #444957;
+  min-width: 250px;
+}
+
+.readmore-btn-div {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.readmore-btn {
+  padding: 14px 34px 14px 34px;
+  border-radius: 34px;
+  background-color: #e23744;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Styles for tablets (portrait) and up */
+@media (min-width: 375px) {
+  .about-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10rem 0px 10rem;
+    background: linear-gradient(
+      90.07deg,
+      rgba(30, 42, 93, 0.04) 30.91%,
+      rgba(48, 62, 130, 0.04) 64.79%,
+      rgba(60, 80, 157, 0.04) 91.94%
+    );
+    width: auto;
+    height: 100vh;
+  }
+
+  .aboutus-img-div {
+    display: none;
+  }
+
+  .aboutus-desc {
+    width: 447px;
+    height: 254px;
+    top: 1096px;
+    left: 789px;
+    gap: 21px;
+  }
+
+  .about-us-title {
+    text-align: center;
+    font-weight: bolder;
+    color: #0e2368;
+    font-family: "Source Sans Pro";
+    font-size: 38px;
+  }
+
+  .about-us-content {
+    color: #444957;
+    text-align: center;
+  }
+
+  .readmore-btn-div {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .readmore-btn {
+    padding: 14px 34px 14px 34px;
+    border-radius: 34px;
+    background-color: #e23744;
+    color: white;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+/* Styles for laptops and up */
+@media screen and (min-width: 1024px) {
+  .about-us-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0px 5rem 0px;
+    align-items: center;
+    padding: 0px 10rem 0px 10rem;
+    background: linear-gradient(
+      90.07deg,
+      rgba(30, 42, 93, 0.04) 30.91%,
+      rgba(48, 62, 130, 0.04) 64.79%,
+      rgba(60, 80, 157, 0.04) 91.94%
+    );
+    width: auto;
+  }
+
+  .aboutus-img-div {
+    display: block;
+  }
+
+  .aboutus-desc {
+    width: 447px;
+    height: 254px;
+    top: 1096px;
+    left: 789px;
+    gap: 21px;
+  }
+
+  .about-us-title {
+    text-align: left;
+    font-weight: bolder;
+    color: #0e2368;
+    font-family: "Source Sans Pro";
+    font-size: 38px;
+  }
+
+  .about-us-content {
+    text-align: left;
+    color: #444957;
+  }
+
+  .readmore-btn-div {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .readmore-btn {
+    padding: 14px 34px 14px 34px;
+    border-radius: 34px;
+    background-color: #e23744;
+    color: white;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,240 @@
+/* Default styles for mobile devices */
+.footer {
+  padding: 15px 0px 15px 0px;
+  background: linear-gradient(
+    90.07deg,
+    rgba(30, 42, 93, 0.04) 30.91%,
+    rgba(48, 62, 130, 0.04) 64.79%,
+    rgba(60, 80, 157, 0.04) 91.94%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  padding: 24px;
+}
+
+.footer-logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-element {
+  padding: 0px;
+  list-style: none;
+}
+
+.li-elements {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 15px 0px;
+  width: 15rem;
+}
+
+.contact-header {
+  font-size: 26px;
+}
+
+.footer-primary {
+  color: #0e2368;
+}
+
+.footer-secondary {
+  color: #444957;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.more-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.more-header {
+  font-size: 26px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.social-links-header {
+  display: none;
+}
+
+.icons {
+  padding: 15px;
+}
+
+/* Styles for tablets (portrait) and up */
+@media (min-width: 768px) {
+  .footer {
+    padding: 15px 0px 15px 0px;
+    background: linear-gradient(
+      90.07deg,
+      rgba(30, 42, 93, 0.04) 30.91%,
+      rgba(48, 62, 130, 0.04) 64.79%,
+      rgba(60, 80, 157, 0.04) 91.94%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+  }
+
+  .footer-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ul-element {
+    padding: 0px;
+    list-style: none;
+  }
+
+  .li-elements {    
+    width: 15rem;
+    padding-bottom: 15px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .footer-primary {
+    color: #0e2368;
+  }
+
+  .footer-secondary {
+    color: #444957;
+  }
+
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .more-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-links-header {
+    display: block;
+    text-align: center;
+  }
+
+  .icons {
+    padding: 15px;
+  }
+}
+
+/* Styles for laptops and up */
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 15px 0px 15px 0px;
+    background: linear-gradient(
+      90.07deg,
+      rgba(30, 42, 93, 0.04) 30.91%,
+      rgba(48, 62, 130, 0.04) 64.79%,
+      rgba(60, 80, 157, 0.04) 91.94%
+    );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+  }
+
+  .footer-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ul-element {
+    padding: 0px;
+    list-style: none;
+  }
+
+  .li-elements {
+    width: 15rem;
+    padding-bottom: 15px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .footer-primary {
+    color: #0e2368;
+  }
+
+  .footer-secondary {
+    color: #444957;
+  }
+
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .more-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .social-links-header {
+    display: block;
+    text-align: center;
+  }
+
+  .icons {
+    padding: 15px;
+  }
+}
